@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  mark {
+    @apply bg-yellow-200 px-1 rounded-sm;
+  }
+  u {
+    @apply underline decoration-slate-400 underline-offset-4;
+  }
+  .prose ul {
+    @apply list-none space-y-1;
+  }
+  .prose li {
+    @apply relative pl-0;
+  }
+  .prose input[type="checkbox"] {
+    @apply mr-2 rounded border-slate-300 text-slate-900 focus:ring-slate-500;
+  }
+}

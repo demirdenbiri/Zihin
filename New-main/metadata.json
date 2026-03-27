@@ -1,0 +1,8 @@
+{
+  "name": "MindFlow AI",
+  "description": "AI-powered smart note-taking app with mood tracking, location awareness, voice-to-text, and creative lyric transformation.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
